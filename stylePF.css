@@ -1,0 +1,14 @@
+
+.image-container1{
+    
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+.A{
+    
+    position: absolute;
+    left: 45%
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Le poney fringuant</title>
+    <link rel="stylesheet" href="stylePF.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <button onclick="window.location.href = 'admin.html';">Accès admin</button>
+    </header>
+    
+    <main>
+        <div class="image-container1"><img src="images/back_gif1.gif"></div>
+        <section class="A">
+            <h3>Réservations:</h3>
+            <form id="form-rsv">
+                N° Téléphone <br>
+                <input type="number" name="id" required><br>
+                Nom : <br>
+                <input type="text" name="nom"required><br>
+                Prénom : <br>
+                <input type="text" name="prenom"required><br>
+                Pour combien?<br>
+                <input type="number" name="cvts"required><br>
+                A quelle heure ?<br>
+                <input type="text" name="heure"required><br> <br>
+                <button id="test1">Réserver</button>
+            </form>
+
+
+
+            
+        </section>
+    </main>
+
+    <script type="module" src="./rsv.js"></script>
+    <script type="module">
+        import {  addReservation,  } from './rsv.js';
+
+      
+      
+    </script>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+#reservations-table{
+    border-collapse: collapse;
+    width: 100%
+}
+
+#reservations-table th, #reservations-table td{
+    border: 2px solid black;
+    padding: 8px;
+    text-align: justify
+}
+
+.header{
+    background: fixed;
+    background-color: black
+
+}
